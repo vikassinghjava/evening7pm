@@ -1,0 +1,21 @@
+Exception Handling:-
+
+Ques: What is Exception?
+Ans: Exception is an Abnormal condition. 
+
+1.If abnormal situationis handelled is called as Exception  
+2.If abnormal situation is not handelled is called as Error
+
+Need Of ExceptionHandelling: 
+1.
+
+
+
+
+
+
+
+
+
+  
+

@@ -1,0 +1,150 @@
+public void doFilter(ServletRequest request, 
+                                 ServletResponse response, 
+								  FilterChain chain) throws IOException, ServletException
+ -------------------------------------------------------------------------------------------------------------------
+ JSP(Java Server Page):
+ its another way is used to create the dynamic web page ?  but its a tiresome process
+ to create the dynamic webpage,
+ 
+ Why JSP?
+ 
+ 1.  To create the dynamic web page html code is written inside the java code.
+ 
+Java Code...............
+      Html Code..............
+	  Html Code..............
+	  Html Code..............
+Java Code...............
+
+
+E.g;
+
+out.print("<b>Successfuly login: </b>"+name);
+
+ So its hard to maintain the html code for end.
+ 
+But inside the jsp we will write the java code inside the html code so its easy to maintain.
+
+<html>
+			java code......
+			java code......
+			java code......
+<html>
+-------------------------------------------------------------------------------------------------------------------------------------------
+How Jsp Works:- Webserver(apache Tomcat-Java)
+
+<html>
+   java code............
+   java code............
+   java code............
+</html>
+
+---------------------------------------
+Jsp provides following 5 types of tags : for dynamic page creation
+
+1. scriptlet tag
+2. expression tag
+3. declaration tag
+4. JSP directives
+5. action tags
+
+1. scriptlet tag:- its a main tag which is equivalent to service(-,-) of Servlet.
+which generates the _jspService(-,-); and used to create the dynamic page.
+
+<html>
+
+		<%
+		 java code...   
+		 java code...
+        %>
+
+</html>
+
+2. declaration tag:-> is used to declare the method and variables.
+Syntax:-
+
+<%!
+
+  method or variable decalaration tag
+
+%>
+
+3. Expression tag;-> is used to print the string returning statement.
+
+<%=message%>
+------------------------------------------------------------------------------------------------------------------
+Ready Made Object provided by JSP.
+
+out----------------------->JSPWriter/PrintWriter
+session------------------->HtttpSesssion
+config-------------------->SevletConfig
+application-------------->ServletContext
+pageContext------------->PageContext
+exception*---------------->Exception/Throwbale
+request-------------------->HttpServletRequest
+response------------------>HttpServletResponse
+page----------------------->Object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

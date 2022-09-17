@@ -1,0 +1,61 @@
+Default method:->
+
+If we add the new method in interface as default method then no need to implements the 
+method in future in implementation class, may or may not use implementation of defualt method .
+
+
+Input and Output->
+-----------------------
+
+(c)i/o--------------->os
+
+c++i/o------------stream--------------->os
+java i/o -----------stream-------------->os
+
+c:
+printf();
+
+//c++;
+
+cin>>;
+cout<<;
+
+cin and cout is an object.
+---------------------------------
+Java also provides the stream.
+Stream: means flow bytes,
+
+input streams->
+output streams.->
+
+java.io.* package java input and output streams.
+
+Wap to write the content into file.
+Wap to copy the content into anoter  file.
+
+[....]abc1.txt------------------read-------------------->[...]abc2.txt.
+
+---------------------------------------------------------------------
+PrintStream class;
+class System{
+
+static PrintStream out;
+
+}
+
+System.out can be redirect any other output device but we can't err.
+
+
+BufferedInputStream:
+BufferedOutputStream:
+Both are higt level stream and use to improve the performence of low level stream.
+
+DataInputStream;- used to take the input line by line.
+
+
+
+
+
+
+
+
